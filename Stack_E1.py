@@ -32,19 +32,3 @@ def reverse_string(input_data,):
 
 if __name__ == "__main__":
     print(reverse_string("hello world"))
-
-#%%
-def is_balanced(input_data):
-    stack = Stack()
-    for element in input_data:
-        stack.push(element)
-    return stack 
-a = is_balanced("{(a+b)}")
-a.pop()
-
-
-
-
-
-
-# %%
